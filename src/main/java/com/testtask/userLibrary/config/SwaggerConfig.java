@@ -26,8 +26,8 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfoBuilder().title("REST API TEST EXAMPLE")
-                .description("Rest api").version("0.0.1").build();
+        return new ApiInfoBuilder().title("REST API USER LIBRARY")
+                .description("RESTful").version("0.0.1").build();
     }
 
 }
